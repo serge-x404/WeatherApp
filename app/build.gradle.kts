@@ -62,5 +62,11 @@ dependencies {
     // Hilt dependency
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
-    implementation(libs.hilt.navigation.compose)
+
+    implementation(libs.androidx.hilt.navigation.compose)
+
+
+    // Material3 expressive
+    implementation(libs.androidx.material3)
+    implementation("androidx.compose.material:material-icons-core")
 }
